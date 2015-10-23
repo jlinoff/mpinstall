@@ -5,7 +5,7 @@ Macports installer that automaticaly determines the latest version and adjusts i
 This tool installs the macports package management infrastructure in a
 custom directory which allows you to create a USB or portable drive
 with your favorite macports tools. It also makes removal easier because
-no system directorie are affected.
+no system directories are affected.
 
 ## Features
 
