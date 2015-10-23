@@ -20,7 +20,9 @@ $ # If this is not your first installation, grab the existing
 $ # packages that you have installed.
 $ port installed requested >/tmp/existing-pkgs.txt
 
-$ # Install and capture the output to a log file (-t).
+$ # Download, install and capture the output to a log file (-t).
+$ git clone https://github.com/jlinoff/mpinstall.git
+$ cd mpinstall
 $ sudo ./mpinstall.py -t -b /tmp/macports -r /opt/macports
 
 $ # Update your ~/.bashrc file.
