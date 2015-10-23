@@ -11,6 +11,7 @@ no system directories are affected.
 
 1. It automatically selects the latest release.
 2. It automatically handles the case where port 873 (rsync) is blocked by the firewall by changing the configuration to use port 80 (HTTP).
+3. It is isolated in its own directory tree.
 
 ## Usage
 Here is how you might use it.

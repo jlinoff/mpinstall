@@ -13,6 +13,8 @@ It has a couple of important features.
       blocked by the firewall by changing the configuration to use
       port 80 (HTTP).
 
+   3. It is isolated in its own directory tree.
+
 Here is how you might use it:
 
    $ # If this is not your first installation, grab the existing
