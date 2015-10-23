@@ -46,6 +46,11 @@ Here is how you might use it:
    $ sudo port install nodejs
    $ sudo port install wireshark
 
+   $ # Update periodically.
+   $ sudo port -v selfupdate  # if rsync is not blocked
+   $ sudo port -v sync        # if rsync is blocked
+   $ sudo port upgrade outdated
+
 If you do not specify -b (build directory) or -r (release directory),
 macports will be built and installed in the current directory. The
 build data will be in the "bld" subdirectory. The release data will be

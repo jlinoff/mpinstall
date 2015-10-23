@@ -61,7 +61,8 @@ $ sudo rm -rf /tmp/macports
 $ rm -f mpinstall*.log
 
 $ # Update periodically.
-$ sudo port sync
+$ sudo port -v selfupdate  # if rsync is not blocked
+$ sudo port -v sync        # if rsync is blocked
 $ sudo port upgrade outdated
 ```
 
