@@ -2,9 +2,10 @@
 Macports installer that automaticaly determines the latest version and adjusts if port 873 is blocked.
 
 ## Overview
-This tool installs the macports package in a custom directory which
-allows you to create a USB or portable drive with your favorite
-macports tools. It also makes removal easier.
+This tool installs the macports package management infrastructure in a
+custom directory which allows you to create a USB or portable drive
+with your favorite macports tools. It also makes removal easier because
+no system directorie are affected.
 
 ## Features
 
@@ -56,6 +57,10 @@ $ grep '^ ' /tmp/x | awk '{print $1;}' | xargs -L 1 sudo port install
 $ # Clean up.
 $ sudo rm -rf /tmp/macports
 $ rm -f mpinstall*.log
+
+$ # Update periodically.
+$ sudo port sync
+$ sudo port upgrade outdated
 ```
 
 ## Command Line Options
