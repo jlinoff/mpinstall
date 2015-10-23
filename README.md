@@ -54,7 +54,7 @@ $ sudo port install virtualbox
 
 $ # If it is not a fresh installation, reinstall
 $ # the previous packages.
-$ grep '^ ' /tmp/x | awk '{print $1;}' | xargs -L 1 sudo port install
+$ grep '^ ' /tmp/existing-pkgs.txt | awk '{print $1;}' | xargs -L 1 sudo port install
 
 $ # Clean up.
 $ sudo rm -rf /tmp/macports
