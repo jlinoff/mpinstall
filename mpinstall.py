@@ -39,7 +39,7 @@ Here is how you might use it:
 
    $ # If this is not your first installation, reinstall
    $ # the packages.
-   $ grep '^ ' /tmp/x | awk '{print $1;}' | xargs -L 1 sudo port install
+   $ grep '^ ' /tmp/existing-pkgs.txt | awk '{print $1;}' | xargs -L 1 sudo port install
 
    $ # If it is your first installation, install packages:
    $ sudo port install htop
