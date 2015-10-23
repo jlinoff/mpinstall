@@ -35,23 +35,15 @@ EOF
 $ source ~/.bashrc
 
 $ # Install some packages if this is a fresh installation.
-$ sudo port install git
-$ sudo port install git-extras
-$ sudo port install htop
-$ sudo port install meld
-$ sudo port install tkdiff
+$ sudo port install git git-extras
+$ sudo port install coreutils vim nano R htop tkdiff port_cutleaves
 $ sudo port install nodejs
-$ sudo port install py27-crypto
-$ sudo port install py27-pip
-$ sudo port install py27-virtualenv
-$ sudo port install py35-crypto
-$ sudo port install py35-pip
-$ sudo port install py35-virtualenv
+$ sudo port install py27-crypto py27-pip py27-virtualenv
+$ sudo port install py35-crypto py35-pip py35-virtualenv
 $ sudo port install xorg-server
-$ sudo port install nmap
-$ sudo port install wireshark
+$ sudo port install nmap wireshark
 $ sudo port install mongodb
-$ sudo port install virtualbox
+$ sudo port install qemu virtualbox
 
 $ # If it is not a fresh installation, reinstall
 $ # the previous packages.
