@@ -63,7 +63,8 @@ The table below briefly summarizes the command line options.
 They are also available from the on-line help (-h or --help).
 
 | Short  | Long         | Description |
-| -b DIR | --blddir DIR | The build directory. Defaults to <pwd>/bld.
+| ------ | ------------ | ----------- |
+| -b DIR | --blddir DIR | The build directory. Defaults to <pwd>/bld. |
 | -h     | --help       | Help message. |
 | -r DIR | --reldir DIR | The release directory. Defaults to <pwd>/rel. |
 | -t     | --tee        | Tee the stdout and stderr to a log file. |
