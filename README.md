@@ -1,5 +1,5 @@
 # mpinstall
-Macports installer that automaticaly determines the latest version and adjusts if port 873 is blocked.
+Macports installer that automatically determines the latest version and adjusts if port 873 is blocked.
 
 ## Overview
 This tool installs the macports package management infrastructure in a
